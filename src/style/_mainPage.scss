@@ -1,0 +1,98 @@
+.mainPage {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 65px;
+  padding-top: 70px;
+  grid-gap: 50px;
+
+
+  &_element {
+    background-image: url("../assets/regał.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 270px;
+    width: 200px;
+    padding: 25px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: darken(#D3D3D3, 50%);
+      border-radius: 15px;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    &:hover::before {
+      opacity: 0.5;
+    }
+
+    &_list {
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 15px;
+      background-color: white;
+      opacity: 0.9;
+      position: absolute;
+      z-index: 2;
+      margin-left: 1070px;
+      max-width: 608px;
+
+
+      &_table {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #B8BCA3;
+        color: white;
+
+      }
+
+      &_button {
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: #B8BCA3;
+        margin-left: -50px;
+        position: absolute;
+        padding: 7px;
+        border-radius: 50%;
+      }
+
+      &_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 5px;
+        border-top: 2px solid #B8BCA3;
+
+
+      }
+
+      &_row div {
+        width: calc(25% - 20px);
+        text-align: center;
+        margin-bottom: 15px;
+        border-right: 2px solid #B8BCA3;
+      }
+
+      &_row div:last-child {
+        border-right: none;
+      }
+    }
+  }
+}

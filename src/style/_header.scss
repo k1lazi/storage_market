@@ -1,0 +1,33 @@
+
+.header {
+  background-color: #B8BCA3;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 35px ;
+  border-bottom-right-radius: 35px ;
+
+  &_logo {
+    margin-left: 25px;
+    font-size: 55px;
+    padding-bottom: 15px;
+  }
+  &_elements {
+
+    &_links {
+      font-size: 25px;
+      color: white;
+      text-decoration: none;
+      margin-right: 25px;
+      padding: 10px;
+      border-radius: 30px;
+      transition: background-color 1s;
+
+    &:focus, &:active, &:hover {
+      background-color: darken(#B8BCA3,20%);
+      }
+    }
+  }
+}

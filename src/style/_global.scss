@@ -1,0 +1,30 @@
+@import "./_reset";
+@import "./_header.scss";
+@import "./_mainPage.scss";
+@import "./_addProduct.scss";
+@import "./_productList.scss";
+
+body {
+ background-color: #D3D3D3;
+  width: 100%;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+ font-family: "Comic Sans MS", sans-serif;
+
+}
+
+.error {
+ margin-top: 25px;
+ margin-left: 700px;
+ position: absolute;
+ background-image: url("../assets/Cat error.gif");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-origin: content-box;
+ width: 800px;
+ height: 800px;
+ color: white;
+ font-size: 35px;
+ text-align: center;
+}

@@ -1,0 +1,30 @@
+[33mcommit 06e13d69f7094f0eb4b612646c38f56f1faebc35[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: k1lazi <majkellazarowicz@gmail.com>
+Date:   Mon Nov 6 14:17:57 2023 +0100
+
+    Set base path for Github Pages deployment
+
+[33mcommit 0cfd8e3f8fb1986392bdf57091033731201b5e27[m
+Merge: be18f75 97ef63e
+Author: k1lazi <majkellazarowicz@gmail.com>
+Date:   Mon Oct 30 15:11:37 2023 +0100
+
+    Rozwiązanie konfliktów scalania
+
+[33mcommit 97ef63ecfe4484ae1af381aa1996eda697f979a5[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: k1lazi <majkellazarowicz@gmail.com>
+Date:   Mon Oct 30 14:44:41 2023 +0100
+
+    Finish Project
+
+[33mcommit fd9364c7801a4c5b288074398ac0305464fc4454[m
+Author: k1lazi <majkellazarowicz@gmail.com>
+Date:   Wed Oct 25 15:32:21 2023 +0200
+
+    initial commit
+
+[33mcommit be18f751504856f14f339b7f76149a9f0bdc6dbc[m
+Author: Michał Lazarowicz <123774278+k1lazi@users.noreply.github.com>
+Date:   Wed Oct 25 15:25:35 2023 +0200
+
+    Initial commit

@@ -1,0 +1,39 @@
+.ListProduct {
+  border: 2px solid #B8BCA3;
+  background-color: lighten(#D3D3D3, 05%);
+  margin-top: 15px;
+  border-radius: 25px;
+  max-height: 800px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+  &_head {
+    background-color: #B8BCA3;
+    font-size: 20px;
+    color: white;
+  }
+
+  &_body {
+    border-bottom: 1px solid #B8BCA3;
+    border-right: 1px solid #B8BCA3;
+
+
+    &_button {
+      color: grey;
+    }
+  }
+}
+
+
+.ListProduct::-webkit-scrollbar {
+  width: 0;
+}
+
+.ListProduct::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.ListProduct::-webkit-scrollbar-track {
+  background-color: transparent;
+}

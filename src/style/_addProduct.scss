@@ -1,3 +1,4 @@
+$my-margin: 20px;
 .addProduct {
 
   &_form {
@@ -11,7 +12,7 @@
 
     &_input {
       border: 1px solid #B8BCA3;
-      margin-top: 20px;
+      margin-top: $my-margin;
       border-radius: 10px;
     }
     &_column {

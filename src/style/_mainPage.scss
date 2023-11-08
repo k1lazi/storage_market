@@ -97,3 +97,13 @@
     }
   }
 }
+
+@media (max-width: 1800px) {
+  .mainPage{
+    &_element{
+      &_list{
+        margin-left: 0;
+      }
+    }
+  }
+}

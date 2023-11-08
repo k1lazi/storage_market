@@ -3,6 +3,14 @@ import {
     Outlet
 } from "react-router-dom";
 
+const handleHamburgerClick = () =>  {
+    const headerElements = document.querySelector(".header_elements");
+    const headerActive = document.querySelector(".header");
+    const headerHamburger = document.querySelector(".header_hamburger");
+    headerElements.classList.toggle("active");
+    headerActive.classList.toggle("active");
+    headerHamburger.classList.toggle("active")
+}
 
 function Header() {
     return (
@@ -17,6 +25,11 @@ function Header() {
 
                     </li>
                 </ul>
+                <div className="header_hamburger" onClick={handleHamburgerClick}>
+                    <div className="header_hamburger_element"></div>
+                    <div className="header_hamburger_element"></div>
+                    <div className="header_hamburger_element"></div>
+                </div>
             </div>
             <Outlet/>
 

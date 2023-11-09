@@ -36,7 +36,17 @@ $my-margin: 20px;
   }
 }
 
-.css-i44wyl {
-  margin-top: 20px;
+@media (max-width: 1016px) {
+  .addProduct_form_column {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .addProduct_form_submitButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error {
+  display: none;
+  }
 }
 
